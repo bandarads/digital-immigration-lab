@@ -3,7 +3,11 @@ import react from "@vitejs/plugin-react";
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: "/digital-immigration-lab/",
   plugins: [react()],
+  build: {
+    outDir: "docs",
+  },
   test: {
     globals: true,
     environment: 'jsdom',
