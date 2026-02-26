@@ -5,9 +5,8 @@ function App() {
     <div className="site">
       <header className="topbar">
         <div className="brand">
-          <span className="brand-mark">FDIL</span>
+          <span className="brand-mark">DIL</span>
           <div className="brand-text">
-            <p className="brand-title">Fairfield University</p>
             <p className="brand-subtitle">Digital Immigration Lab</p>
           </div>
         </div>
@@ -27,7 +26,7 @@ function App() {
         <section className="hero" id="home">
           <div className="hero-copy">
             <p className="eyebrow">Human-centered migration research</p>
-            <h1>Fairfield University Digital Immigration Lab</h1>
+            <h1>Digital Immigration Lab</h1>
             <p className="lead">
               The Digital Immigration Lab advances storytelling, data ethics, and
               policy engagement to amplify immigrant voices and build practical
@@ -149,7 +148,7 @@ function App() {
 
       <footer className="footer">
         <div>
-          <p>Fairfield University Digital Immigration Lab</p>
+          <p>Digital Immigration Lab</p>
           <span>Fairfield, Connecticut • Community-engaged research</span>
         </div>
         <div className="footer-links">
